@@ -1,7 +1,7 @@
 # Java
 
 ##阅读JDK文档及源代码并简要回答以下问题。
-注：JDKAPI文档（http://docs.oracle.com/javase/8/docs/api/index.html或从http://cf.pku.cn/tds/java下载chm格式的）
+注：JDKAPI文档（http://docs.oracle.com/javase/8/docs/api/index.html或从http://cf.pku.cn/tds/java下载chm格式的） 
  JDK的源代码（一般在 C:\Program Files\Java\jdk1.8.0\src.zip）中
 
 ##-----java.lang.Object类-----
