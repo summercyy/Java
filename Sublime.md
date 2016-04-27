@@ -24,4 +24,7 @@ IF EXIST %~n1.class (
 ##编译成功但不运行  
 要注意sublime中java文件的保存名应该与public类名相同，且要把public类放在其他类之前。使用java命令进行编译，会生成一个class文件，与源文件中的第一个类同名。
 ##保存
-如果不保存，直接编译，会将文件保存到Sublime Text\Packages\Java中的一个Ant文件
+如果不保存，直接编译，会将文件保存到Sublime Text\Packages\Java中的Ant.sublime-build文件，出现错误如下：  
+javac: 无效的标记: Ant.sublime-build  
+用法: javac <options> <source files>  
+-help 用于列出可能的选项
