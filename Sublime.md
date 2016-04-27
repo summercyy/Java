@@ -20,7 +20,7 @@ IF EXIST %~n1.class (
 	"encoding": "936"
 }
 
-#3. 其他问题
-Q：编译成功但不运行？
-A：要注意sublime中java文件的保存名应该与public类名相同，且要把public类放在其他类之前。
+#3. 其他问题  
+Q：编译成功但不运行？  
+A：要注意sublime中java文件的保存名应该与public类名相同，且要把public类放在其他类之前。  
     使用java命令进行编译，会生成一个class文件，与源文件中的第一个类同名。
