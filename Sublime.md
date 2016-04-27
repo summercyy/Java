@@ -12,12 +12,12 @@ IF EXIST %~n1.class (
   java %~n1  
 ) 
 
-#2. 编辑javaC.sublime-build
-{
-	"cmd": ["runJava.bat","$file"],
-	"file_regex": "^(...*?):([0-9]*):?([0-9]*)",
-	"selector": "source.java",
-	"encoding": "936"
+#2. 编辑javaC.sublime-build  
+{  
+	"cmd": ["runJava.bat","$file"],  
+	"file_regex": "^(...*?):([0-9]*):?([0-9]*)",  
+	"selector": "source.java",  
+	"encoding": "936"  
 }
 
 #3. 其他问题  
